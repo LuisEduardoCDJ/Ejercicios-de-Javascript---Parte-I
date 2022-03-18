@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        let palabra;
+        palabra = prompt('Ingrese alguna de estas palabras (casa, mesa, perro, gato) para traducirlas al ingles');
+        switch (palabra) {
+            case 'casa':
+                document.write('Casa se dice: house');
+                break;
+            case 'mesa':
+                document.write('Mesa se dice: table');
+                break;
+            case 'perro':
+                document.write('Perro se dice:  dog');
+                break;
+            case 'gato':
+                document.write('gato se dice: cat');
+                break;
+            default:
+                document.write('Por favor, solo instroduzca las palabras (casa, mesa, perro, gato)');
+                break;
+        }
+    </script>
+
+</body>
+
+</html>

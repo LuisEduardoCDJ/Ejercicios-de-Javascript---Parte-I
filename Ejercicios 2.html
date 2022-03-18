@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        let num;
+        num = parseInt(prompt('Digite un numero que tenga 1,2 o 3 digitos: '));
+        if (num < 10) {
+            document.write('Su numero tiene 1 digito: ' + num);
+        } else {
+            if (num < 100) {
+                document.write('su numero tiene dos dígitos' + num);
+            } else {
+                document.write('su numero tiene tres dígitos'+ num);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
